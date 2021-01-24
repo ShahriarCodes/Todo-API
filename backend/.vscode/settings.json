@@ -8,5 +8,5 @@
         "**/*.pyc": true,
         "**/__pycache__": true
     },
-    "python.pythonPath": "/home/sal/.local/share/virtualenvs/backend-TSOQ4F-I/bin/python"
+    "python.formatting.provider": "black"
 }
