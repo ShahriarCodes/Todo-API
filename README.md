@@ -12,7 +12,8 @@ First clone the repo
 $ git clone https://github.com/shahriar100/Todo-API/
 ```
 
-**Backend**
+**Backend** 
+
 To install Pipenv we can use pip3 which Homebrew automatically installed for us alongside Python 3.
 
 ```
@@ -76,41 +77,52 @@ Working directory structure
 ```
 (Todo-API) $ tree
 .
-├── api
-│   ├── admin.py
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations
-│   │   └── __init__.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
-├── books
-│   ├── admin.py
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations
-│   │   ├── 0001_initial.py
-│   │   └── __init__.py
-│   ├── models.py
-│   ├── templates
-│   │   └── books
-│   │       └── book_list.html
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
-├── db.sqlite3
-├── library_project
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── manage.py
-├── Pipfile
-└── Pipfile.lock
+├── backend
+│   ├── db.sqlite3
+│   ├── manage.py
+│   ├── Pipfile
+│   ├── Pipfile.lock
+│   ├── todo_project
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   └── todos
+│       ├── admin.py
+│       ├── apps.py
+│       ├── __init__.py
+│       ├── migrations
+│       │   ├── 0001_initial.py
+│       │   └── __init__.py
+│       ├── models.py
+│       ├── serializers.py
+│       ├── tests.py
+│       ├── urls.py
+│       └── views.py
+├── frontend
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── public
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   ├── README.md
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── App.test.js
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   ├── logo.svg
+│   │   ├── reportWebVitals.js
+│   │   └── setupTests.js
+│   └── yarn.lock
+└── README.md
 
-7 directories, 27 files
+7 directories, 37 files
+
 
 ```
